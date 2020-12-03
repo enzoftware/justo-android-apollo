@@ -1,0 +1,18 @@
+query fetchProducts{
+  products(first: 10) {
+    totalCount
+    edges {
+      node {
+        id
+        name
+        description
+        category {
+          name
+        }
+        thumbnail {
+          url
+        }
+      }
+    }
+  }
+}
