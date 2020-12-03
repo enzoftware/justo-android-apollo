@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">AndroidGraphQL</string>
+    <string name="error_authentication">Auth error</string>
+    <string name="error_access_denied">Access denied</string>
+    <string name="error_unavailable_server">Error server</string>
+    <string name="error_unknown">Unknown error</string>
+    <string name="error_connection_network">Network error</string>
+    <string name="product_desc">product description mock</string>
+    <string name="product_name">product name mock</string>
 </resources>
